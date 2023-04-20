@@ -15,15 +15,15 @@ A -Assert that the result of acting on that data with that method is what we exp
 A public modifier lets the code be accessed outside of its class, while a private modifier does the opposite and makes the code only accesible in the class it is in.
 
 4. A method should:  (**Select all that apply**) <br/>
-***(A) Make changes to an object***  
-***(B) Return some information about an object***  
+****(A) Make changes to an object****  
+****(B) Return some information about an object****  
 (C) Make changes to an object and return information about the object.  
 (D) None of the Above. 
 
 
 5. How did you determine what to answer for the question above?
 
-A method can both make changes to an object and return information about it (methods called command and query respectively), but they don't have to do it both at the same time, so D does not apply.
+A method can both make changes to an object and return information about it (methods called command and query respectively), but they don't have to do it both at the same time, so C does not apply.
 
 ## Exercise (10 Points Possible)
 
