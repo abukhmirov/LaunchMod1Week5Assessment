@@ -15,8 +15,8 @@ A -Assert that the result of acting on that data with that method is what we exp
 A public modifier lets the code be accessed outside of its class, while a private modifier does the opposite and makes the code only accesible in the class it is in.
 
 4. A method should:  (**Select all that apply**) <br/>
-****(A) Make changes to an object****  
-****(B) Return some information about an object****  
+xx(A) Make changes to an object xx  
+xx(B) Return some information about an object xx  
 (C) Make changes to an object and return information about the object.  
 (D) None of the Above. 
 
