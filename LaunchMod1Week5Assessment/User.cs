@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace User
+namespace UserNamespace
 {
     public class User
     {
@@ -12,12 +12,15 @@ namespace User
         public string Email { get; private set; }
         private string Password { get; set; }
         public bool IsLoggedIn { get; set; }
+        public string confirmation { get; set; }
 
         public User(string name, string email)
         {
             Name = name;
             Email = email;
             IsLoggedIn = false;
+            Password = null;
+            var confirmation = "";
         }
 
         public bool IsSetupComplete()
@@ -41,7 +44,7 @@ namespace User
 
             if (Password != null)
             {
-                var confirmation = "Password Created";
+                confirmation = "Password Created";
             }
         }
 
